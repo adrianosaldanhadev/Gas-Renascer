@@ -280,7 +280,7 @@
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
-        font-size: 30px;
+        font-size: auto;
         font-weight: bold;
         -webkit-text-stroke-width: 0.5px;
         -webkit-text-stroke-color:  #0072c6;
