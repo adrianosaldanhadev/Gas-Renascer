@@ -246,7 +246,7 @@
 
     .moto {
       position: fixed;
-      bottom: 100px;
+      bottom: 300px;
       left: -150px;
       width: 120px;
       z-index: 99;
@@ -271,20 +271,79 @@
 
       
 
-    @media (min-width: 768px) {
+    @media (max-width: 768px) {
       nav a {
         margin: 0 30px;
-      }
-
-      h1 {
-        font-family: "League Spartan", sans-serif;
-        font-optical-sizing: auto;
-        font-style: normal;
-        font-size: auto;
         font-weight: bold;
-        -webkit-text-stroke-width: 0.5px;
-        -webkit-text-stroke-color:  #0072c6;
-       }
+        font-size: 15px;
+      }
+       .div-titulo{
+        color: #ffff;
+        font-size: 13px;
+      }
+  h1{
+    font-size: 25px;
+  }
+
+  .paragrafo-1{
+    font-size: 15px;
+  }
+
+      .logo-1{
+      width: 85px;
+      }
   
+  .logo-2{
+   width: 95px;
+  
+  }
+
+  .logo1-2{
+    display: grid;
+  }
+  
+  .icones-social{
+    visibility: hidden;
 
     }
+
+    .paragrafo-2{
+      
+      line-height: 1.1;
+       }
+
+       footer{
+        font-size: 12px;
+       }
+
+       p{
+        font-size: 13px;
+       }
+
+       h2{
+        font-size: 18px;
+       }
+
+       .btn{
+        width: 200px;
+        font-size: 15px;
+       }
+
+.back-to-top{
+  font-size: 13px;
+  padding: 9px;
+  width: 55px;
+  height: 30px;
+  margin-right: 65px;
+  bottom: 130px;
+  right: 8px;
+}
+
+.whatsapp-float{
+  bottom: 80px;
+  right: 70px;
+  width: 40px;
+  height: 40px;
+}
+
+  }
